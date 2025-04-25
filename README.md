@@ -13,7 +13,7 @@
 ### 0. 添加composer包：
 
 ```
-composer require "huo-zi/laravel-wechat-notification"
+composer require "shebaoting/laravel-wechat-notification"
 ```
 
 ### 1. 在继承了`notification`的通知类中可以使用如下方法：
