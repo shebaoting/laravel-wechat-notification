@@ -1,0 +1,38 @@
+{
+    "name": "shebaoting/laravel-wechat-notification",
+    "description": "微信 template message for Laravel Notification",
+    "homepage": "https://github.com/shebaoting/laravel-wechat-notification",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "shebaoting",
+            "email": "th9th@@th9th.com",
+            "homepage": "https://github.com/shebaoting?tab=repositories"
+        }
+    ],
+    "require": {
+        "php": "~7.0 | ^8.0",
+        "overtrue/laravel-wechat": "^5.0 | ^6.0 | ^7.0"
+    },
+    "require-dev": {
+        "laravel/framework": "6.*"
+    },
+    "keywords": [
+        "wechat",
+        "notification",
+        "laravel"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Shebaoting\\LaravelWechatNotification\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shebaoting\\LaravelWechatNotification\\ServiceProvider"
+            ]
+        }
+    }
+}
